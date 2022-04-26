@@ -1,0 +1,1 @@
+alert("please fill in the form to join us!")

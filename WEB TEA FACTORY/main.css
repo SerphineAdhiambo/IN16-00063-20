@@ -1,0 +1,45 @@
+body{
+    background-image:url(tea\ pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+list-style: none;
+margin: 0;
+padding: o;
+overflow: hidden;
+background-color: black;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+
+}
+li a .hover{
+    background-color:#555;
+    color:white;
+}
+.active{
+    background-color: #4cAF50;
+    color:white;
+}
+h1{
+    font-style: italic;
+    font: size 30px;;
+}
+navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}

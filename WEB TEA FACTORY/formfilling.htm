@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <script type="text/javascript" src="update.js">
+    </script>
+    <head>
+        <title>join us</title>
+        
+    </head>
+    <body>
+        <h1>would you love to be part of us fill in the form and secure an interview in the vacancy available</h1>
+        <form action="action.php" method="GET"action="upload.php" >
+            <fieldset>
+                <legend>NAME</legend>
+                firstname:
+                <input type="text" name="firstname":>
+                surname:
+                <input type="text" name="surname">
+                lastname:
+                <input type="text" name="lastname">
+            </fieldset>
+            <fieldset>
+                <legend>gender</legend>
+                <input type="radio" name="gender" value="male">
+                male:
+                <input type="radio" name="gender" value="female">
+                female:<br>
+                age:
+                <input type="number" name="age"><br>
+                should be between 18 to 35 years<br>
+                E-mail:
+                <input type="email" name="email">
+            </fieldset>
+            <fieldset>
+                <legend>location</legend>
+                where are you located:
+                <input type="text" name="location">
+                
+            </fieldset>
+            <fieldset>
+                <legend>select</legend>
+                select area of experience<br>
+                <select name="experience">
+                    <option>tea plucker</option>
+                    <option>drier</option>
+                    <option>clerk</option>
+                    <option>manager</option>
+                    <personal>personal assisistant</personal>
+                </select><br>
+                specify what you can do below:<br>
+                <textarea name="message" row="5" cols="30"></textarea>
+            </fieldset>
+            <fieldset>
+                upload your cv:
+                <input type="file" name ="cv"><br>
+
+                <button type="submit">submit</button>
+                
+            
+            </fieldset>
+
+        </form>
+        <h2 align="center">THANK YOU </h2>
+    </body>
+</html>
